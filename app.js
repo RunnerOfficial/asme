@@ -20,7 +20,7 @@ app.get('/.well-known/assetlinks.json', (req, res) => {
 app.get('/callback', async (req, res) => {
     const { code, state } = req.query;
 
-            const redirectUri = "https://asme.vercel.app/getAuth";
+            const redirectUri = "https://asme-xi.vercel.app/getAuth";
             res.redirect(redirectUri);
 
        
